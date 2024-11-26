@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Vollkorn";
   src: local("Vollkorn-Regular"),
-    url("/fonts/Vollkorn-Regular.woff2") format("woff2");
+    url("../fonts/Vollkorn-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -10,7 +10,7 @@
 @font-face {
   font-family: "Vollkorn";
   src: local("Vollkorn-Medium"),
-    url("/fonts/Vollkorn-Medium.woff2") format("woff2");
+    url("../fonts/Vollkorn-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -19,7 +19,7 @@
 @font-face {
   font-family: "Vollkorn";
   src: local("Vollkorn-SemiBold"),
-    url("/fonts/Vollkorn-SemiBold.woff2") format("woff2");
+    url("../fonts/Vollkorn-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -28,7 +28,7 @@
 @font-face {
   font-family: "Vollkorn";
   src: local("Vollkorn-Bold"),
-    url("/fonts/Vollkorn-Bold.woff2") format("woff2");
+    url("../fonts/Vollkorn-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -37,7 +37,7 @@
 @font-face {
   font-family: "Vollkorn";
   src: local("Vollkorn-ExtraBold"),
-    url("/fonts/Vollkorn-ExtraBold.woff2") format("woff2");
+    url("../fonts/Vollkorn-ExtraBold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -367,7 +367,7 @@ img {
   border: 5px solid var(--color-green);
   padding-top: 160px;
   padding-bottom: 340px;
-  background-image: url("/images/hero.jpg");
+  background-image: url("../images/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -429,7 +429,7 @@ img {
 
 .advantages__item {
   padding: 124px 0 0 0;
-  background-image: url('/images/check.svg');
+  background-image: url('../images/check.svg');
   background-repeat: no-repeat;
   background-position: center top;
   width: calc((100% - 48px) / 3);
@@ -734,7 +734,7 @@ img {
   .hero {
     padding-top: 160px;
     padding-bottom: 340px;
-    background-image: url('/images/hero-768.jpg');
+    background-image: url('../images/hero-768.jpg');
     background-position: right;
   }
 
@@ -771,7 +771,7 @@ img {
   /* hero */
   .hero {
     padding-top: 100px;
-    background-image: url('/images/hero-360.jpg');
+    background-image: url('../images/hero-360.jpg');
   }
 
   .hero__title {
