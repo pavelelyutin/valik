@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
         form.reset();
         form.classList.remove("_sending");
       } else {
-        alert("Ошибка");
+        alert('Ошибка');
       }
     } else {
       // alert('Заполните правильно поля формы')
@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function checkedCheckbox() {
-    const checkbox = document.querySelector(".checkbox");
+    const checkbox = document.querySelector(".checkbox__input");
     const formButton = document.querySelector(".form__btn");
     checkbox.addEventListener("change", function () {
       if (checkbox.checked) {

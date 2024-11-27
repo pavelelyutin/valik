@@ -152,11 +152,11 @@
           <div class="order__image">
             <img src="./images/kit.png" alt="">
           </div>
-          <form class="order__form form">
+          <form id="form" class="order__form form" action="#">
             <div class="form__input-box">
-              <input class="form__input" type="number" placeholder="Количество наборов" min="1" max="99">
-              <input class="form__input" type="tel" placeholder="Номер телефона">
-              <input class="form__input" type="email" placeholder="Email">
+              <input class="form__input _req" name="user_amount" type="number" placeholder="Количество наборов" min="1" max="99">
+              <input class="form__input _req _phone" name="user_phone" type="tel" placeholder="Номер телефона">
+              <input class="form__input _req _email" name="user_email" type="email" placeholder="Email">
             </div>
             <label class="form__checkbox checkbox" for="agreement">
               <input id="agreement" class="checkbox__input" type="checkbox">
@@ -165,7 +165,7 @@
                 соглашением&raquo; и&nbsp;&laquo;предложением сайта&raquo;
               </span>
             </label>
-            <button class="btn btn-reset form__btn" type="submit">Заказать</button>
+            <button class="btn btn-reset form__btn" type="submit" disabled>Заказать</button>
           </form>
         </div>
       </div>
