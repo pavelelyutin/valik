@@ -28,7 +28,7 @@ $email = $_POST['user_email'];
     $mail->Debugoutput = function($str, $level) {$GLOBALS['data']['debug'][] = $str;};    
 
     $mail->Host       = 'p728575.mail.ihc.ru';                       //Set the SMTP server to send through    
-    $mail->Username   = 'info@p728575.ihc.xyz';                     //SMTP username
+    $mail->Username   = 'info@valik-mini.ru';                     //SMTP username
     $mail->Password   = 'qazplm1';                     //SMTP password
     $mail->SMTPSecure = 'ssl';            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
