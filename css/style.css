@@ -341,6 +341,19 @@ img {
   opacity: 1;
 }
 
+.checkbox__link {
+  color: var(--color-pink);
+}
+
+.checkbox__link:focus-visible {
+  outline: none;
+  text-decoration: underline;
+}
+
+.checkbox__link:hover:not(:focus-visible) {
+  text-decoration: underline;
+}
+
 /* header */
 .header {
   position: absolute;

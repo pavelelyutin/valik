@@ -36,7 +36,7 @@ $email = $_POST['user_email'];
     // С какого почтового адреса отправляется собщение
     $mail->setFrom('info@p728575.ihc.xyz');
     // На какой почтовый адрес отправляется сообщение
-    $mail->addAddress('pavelyutin@yandex.ru');
+    $mail->addAddress('valik-mini24@yandex.ru');
 
     // Content
     $mail->isHTML(true);
