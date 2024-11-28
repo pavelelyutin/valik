@@ -51,11 +51,16 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Маска для телефона
-  const element = document.querySelector("._phone");
-  const maskOptions = {
-    mask: "+{7} (000) 000-00-00",
-  };
-  const mask = IMask(element, maskOptions);
+  // const element = document.querySelector("._phone");
+  // const maskOptions = {
+  //   mask: "+{7} (000) 000-00-00",
+  // };
+  // const mask = IMask(element, maskOptions);
+
+  // Маска для телефона
+  let inputsTel = document.querySelectorAll('input[type="tel"]');
+  let im = new Inputmask('+7 (999) 999-99-99', { showMaskOnHover: false, clearIncomplete: true });
+  im.mask(inputsTel);
 
   // Валидация и отправка формы на почту
   const form = document.getElementById("form");

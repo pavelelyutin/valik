@@ -187,7 +187,7 @@ img {
 
 .list__item {
   position: relative;
-  padding-left: 40px;
+  padding-left: 24px;
 }
 
 .list__item:not(:last-child) {
@@ -792,7 +792,7 @@ img {
     border-radius: 0 0 var(--border-radius-m) 0;
     visibility: hidden;
     transform: translateX(-500px);
-    padding: 100px 30px;
+    padding: 100px 20px;
     background-color: var(--color-bg);
     box-shadow: 10px 0px 5px -5px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease, visibility 0.2s ease;
@@ -846,6 +846,7 @@ img {
   }
 
   .section__title {
+    margin-bottom: 32px;
     font-size: 24px;
   }
 
@@ -855,6 +856,11 @@ img {
 
   .btn {
     padding: 8px 38px;
+  }
+
+  /* header */
+  .header__nav {
+    padding: 100px 16px;
   }
 
   /* hero */
